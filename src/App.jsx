@@ -1,7 +1,11 @@
 function App() {
   return (
     <div className="min-h-screen flex flex-col text-white">
-      <main className="container mx-auto px-6 pt-16 flex-1 text-center"></main>
+      <main className="container mx-auto px-6 pt-16 flex-1 text-center">
+        <h2 className="text-2xl md:text-4xl lg:text-6xl uppercase">
+          Welcome to
+        </h2>
+      </main>
       <footer className="container mx-auto p-6">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="mb-4 md:mb-0 md:text-xl">by Stephanie Sanchez</p>
