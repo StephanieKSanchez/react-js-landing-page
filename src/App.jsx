@@ -18,7 +18,7 @@ function App() {
           name="revue-form"
           target="_blank"
         >
-          <div className="revue-form-group">
+          <div className="flex flex-col md:flex-row justify-center mb-4">
             <input
               className="revue-form-field"
               placeholder="Your email address..."
@@ -27,13 +27,21 @@ function App() {
             />
             <input type="submit" value="Join today" name="member[subscribe]" />
           </div>
-          <div className="revue-form-footer">
+          <div className="opacity-75 italic">
             By subscribing, you agree with Revue's
-            <a target="_blank" href="https://www.getrevue.co/terms">
+            <a
+              target="_blank"
+              href="https://www.getrevue.co/terms"
+              className="hover:opacity-80 duration-150"
+            >
               Terms of Service
             </a>
             and
-            <a target="_blank" href="https://www.getrevue.co/privacy">
+            <a
+              target="_blank"
+              href="https://www.getrevue.co/privacy"
+              className="hover:opacity-80 duration-150"
+            >
               Privacy Policy
             </a>
             .
