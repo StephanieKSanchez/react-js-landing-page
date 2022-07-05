@@ -18,30 +18,21 @@ function App() {
           name="revue-form"
           target="_blank"
         >
-          <div class="revue-form-group">
-            <label for="member_email">Email address</label>
+          <div className="revue-form-group">
             <input
-              class="revue-form-field"
+              className="revue-form-field"
               placeholder="Your email address..."
               type="email"
               name="member[email]"
-              id="member_email"
             />
+            <input type="submit" value="Join today" name="member[subscribe]" />
           </div>
-          <div class="revue-form-actions">
-            <input
-              type="submit"
-              value="Subscribe"
-              name="member[subscribe]"
-              id="member_submit"
-            />
-          </div>
-          <div class="revue-form-footer">
-            By subscribing, you agree with Revue’s{" "}
+          <div className="revue-form-footer">
+            By subscribing, you agree with Revue's
             <a target="_blank" href="https://www.getrevue.co/terms">
               Terms of Service
-            </a>{" "}
-            and{" "}
+            </a>
+            and
             <a target="_blank" href="https://www.getrevue.co/privacy">
               Privacy Policy
             </a>
