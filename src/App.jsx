@@ -33,15 +33,15 @@ function App() {
             />
           </div>
           <div className="opacity-75 italic">
-            By subscribing, you agree with Revue's
+            By subscribing, you agree with Revue's{" "}
             <a
               target="_blank"
               href="https://www.getrevue.co/terms"
               className="hover:opacity-80 duration-150"
             >
               Terms of Service
-            </a>
-            and
+            </a>{" "}
+            and{" "}
             <a
               target="_blank"
               href="https://www.getrevue.co/privacy"
